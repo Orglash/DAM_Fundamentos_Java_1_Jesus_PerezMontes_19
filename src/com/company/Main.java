@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        //Pedimos por consola el numero
         System.out.println("Introduzca la nota a convertir:\n");
         Scanner sc=new Scanner(System.in);
         int nota=sc.nextInt();
+        //Switch para cada valor.
         switch(nota){
             case 0: {
                 System.out.println("Cero.");
