@@ -56,5 +56,7 @@ public class Main {
                 break;
             }
         }
+        //Cerramos el scanner.
+        sc.close();
     }
 }
